@@ -14,4 +14,6 @@ Here is a simple solution, separating the W&B Sweep control and the Slurm task s
      
 3. set Slurm script template in 'slurm_wrapper.py'
 
-4. run newstart.py on your HPC and have a cup of coffee
+4. Maybe you also need to consider adding more conditions in 'check_status()' under 'slurm_wrapper.py' for your own interest.
+
+5. run newstart.py on your HPC and have a cup of coffee
