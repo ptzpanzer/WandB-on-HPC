@@ -9,11 +9,11 @@ log_path = './logs/'
 
 
 # project name on wandb and HPC
-project_name = 'Trans_NLU'
+project_name = 'YOUR_PROJ_NAME'
 # e-mail address to recieve notifications
-e_mail = 'chaofan.li@kit.edu'
+e_mail = 'E@MAIL.COM'
 # conda location
-conda_env = '/home/kit/tm/lm6999/miniconda3/envs/NN_env'
+conda_env = 'A_CONDA_ENV_PATH'
 # file name of the slurm_wrapper, don't change this if you haven't write a new one
 slurm_wrapper_name = './slurm_wrapper.py'
 # file name of the training code
